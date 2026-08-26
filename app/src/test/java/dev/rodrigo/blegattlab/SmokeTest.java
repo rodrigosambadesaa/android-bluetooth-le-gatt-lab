@@ -1,0 +1,1 @@
+package dev.rodrigo.blegattlab; import org.junit.Test; import static org.junit.Assert.*; public class SmokeTest{@Test public void bluetoothUuidFormatting(){assertEquals(36,java.util.UUID.randomUUID().toString().length());}}
